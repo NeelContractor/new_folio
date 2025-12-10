@@ -11,16 +11,16 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Neel Contractor',
+    template: '%s | Neel Contractor',
   },
-  description: 'This is my portfolio.',
+  description: 'Neel Contractor is a Solana developer focused on building fast, reliable Web3 applications with Anchor, Rust, and Next.js. Outside of tech loves watching movies, learning new things, finance, and general life.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Neel Contractor',
+    description: 'Neel Contractor is a Solana developer focused on building fast, reliable Web3 applications with Anchor, Rust, and Next.js. Outside of tech loves watching movies, learning new things, finance, and general life.',
     url: baseUrl,
-    siteName: 'My Portfolio',
-    locale: 'en_US',
+    siteName: 'Neel Contractor',
+    locale: 'en_IN',
     type: 'website',
   },
   robots: {
