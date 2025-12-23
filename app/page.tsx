@@ -3,7 +3,7 @@ import Projects from './components/projects'
 
 export default function Page() {
   return (
-    <section className='mt-10'>
+    <section className='my-10'>
       <h1 className="mb-8 text-4xl font-semibold tracking-tighter">
         Neel Contractor
       </h1>
