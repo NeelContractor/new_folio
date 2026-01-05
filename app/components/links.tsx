@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Links() {
   return (
-    <div className="flex gap-4 items-center mb-16">
+    <div className="flex gap-4 items-center mb-10">
       <Link 
         href="https://docs.google.com/document/d/1hvIJzoh7xqaMCDZHgYUTdtUDxu_JOR2NnIOZ5BSzhJM" 
         target="_blank"

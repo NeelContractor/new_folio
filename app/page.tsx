@@ -1,3 +1,4 @@
+import Achievement from './components/Achievement'
 import Links from './components/links'
 import Projects from './components/projects'
 
@@ -14,6 +15,7 @@ export default function Page() {
         </p>
       </div>
       <Links />
+      <Achievement />
       <Projects />
     </section>
   )
