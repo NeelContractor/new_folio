@@ -2,14 +2,8 @@ import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-// import { Navbar } from './components/nav'
-// import { Analytics } from '@vercel/analytics/react'
-// import { SpeedInsights } from '@vercel/speed-insights/next'
-// import Footer from './components/footer'
-import { baseUrl } from './sitemap'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
   title: {
     default: 'Neel Contractor',
     template: '%s | Neel Contractor',
@@ -18,7 +12,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Neel Contractor',
     description: 'Neel Contractor is a Solana developer focused on building fast, reliable Web3 applications with Anchor, Rust, and Next.js. Outside of tech loves watching movies, learning new things, finance, and general life.',
-    url: baseUrl,
     siteName: 'Neel Contractor',
     locale: 'en_IN',
     type: 'website',
@@ -57,11 +50,7 @@ export default function RootLayout({
     >
       <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-          {/* <Navbar /> */}
           {children}
-          {/* <Footer /> */}
-          {/* <Analytics /> */}
-          {/* <SpeedInsights /> */}
         </main>
       </body>
     </html>
